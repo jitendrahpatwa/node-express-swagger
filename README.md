@@ -9,7 +9,10 @@
 
 ### in index.js specifies the code 
 >var swaggerUi = require('swagger-ui-express');
+##
 >var swaggerDocument = require('./swagger.json');
+***
 &
 before using listen function use code
+***
 >app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
